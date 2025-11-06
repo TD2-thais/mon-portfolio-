@@ -1,0 +1,117 @@
+/* Mise en forme générale du contenu principal */
+main {
+    max-width: 900px;
+    /* limite la largeur pour améliorer la lisibilité */
+    margin: 0 auto;
+    /* centre le main sur la page */
+    padding: 20px;
+    /* espace intérieur autour du contenu */
+    background: #ffffff;
+    /* fond blanc (utile si la page a une couleur différente) */
+    color: #333;
+    /* couleur de texte gris foncé, plus doux que le noir pur */
+}
+
+/* Navigation interne */
+main nav {
+    text-align: center;
+    /* centre le menu de navigation */
+    margin-bottom: 20px;
+    /* espace sous la barre de navigation */
+}
+
+main nav ul {
+    list-style: none;
+    /* supprime les puces de la liste */
+    padding: 0;
+    /* supprime le retrait intérieur */
+    margin: 0;
+    /* supprime le retrait extérieur */
+}
+
+main nav li {
+    display: inline-block;
+    /* affiche les éléments de menu côte à côte */
+    margin: 0 10px;
+    /* espace horizontal entre les liens */
+}
+
+main nav a {
+    text-decoration: none;
+    /* supprime le soulignement par défaut */
+    color: #8c3897;
+    /* couleur bleue pour les liens */
+    font-weight: bold;
+    /* met les liens du menu en gras */
+}
+
+main nav a:hover {
+    text-decoration: underline;
+    /* souligne au survol pour l’accessibilité */
+}
+
+/* Titres des sections */
+main h2 {
+    font-size: 1.5rem;
+    /* taille de police intermédiaire */
+    margin-top: 30px;
+    /* espace au-dessus des titres */
+    margin-bottom: 10px;
+    /* espace sous le titre */
+    border-bottom: 2px solid #ddd;
+    /* ligne grise sous le titre */
+    padding-bottom: 5px;
+    /* espace entre le texte et la ligne */
+}
+
+/* Paragraphes */
+main p {
+    line-height: 1.5;
+    /* augmente l’espacement entre les lignes */
+    margin-bottom: 15px;
+    /* espace sous chaque paragraphe */
+}
+
+/* Listes dans les sections */
+main section ul {
+    padding-left: 20px;
+    /* ajoute un retrait pour les listes */
+    margin-bottom: 20px;
+    /* espace sous la liste */
+}
+
+main section li {
+    margin-bottom: 10px;
+    /* espace entre les éléments de liste */
+}
+
+/* Balises <address> utilisées pour lieux/sites */
+address {
+    font-style: normal;
+    /* supprime l’italique par défaut */
+    display: inline;
+    /* reste sur la même ligne que le texte */
+}
+
+/* Liens dans le contenu (hors navigation) */
+main section a {
+    color: #55347a;
+    /* même bleu que les liens du menu */
+    text-decoration: none;
+    /* pas de soulignement par défaut */
+}
+
+main section a:hover {
+    text-decoration: underline;
+    /* souligne au survol */
+}
+
+/* Séparateurs horizontaux */
+hr {
+    border: 0;
+    /* supprime la bordure par défaut */
+    border-top: 1px solid #ddd;
+    /* ajoute une ligne fine grise */
+    margin: 30px 0;
+    /* espace autour de la ligne */
+}
