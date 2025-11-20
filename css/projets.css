@@ -1,10 +1,22 @@
 /* --- Projets --- */
-.projets {
+.liste-projets{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.liste-projets h2{
+    flex-basis: 100%;
     text-align: center;
+}
+.projets {
+    
+    text-align: center;
+    
+    
     /* centre les articles à l'intérieur du conteneur */
 }
 
-.projets article {
+.projets {
     display: inline-block;
     /* affiche les articles les uns à côté des autres (comme du texte) */
     vertical-align: top;
@@ -35,7 +47,7 @@
 .projets a {
     text-decoration: none;
     /* enlève le soulignement par défaut des liens */
-    color: #8c3897;
+    color: #1fd38e;
     /* applique une couleur bleue au lien */
     font-weight: bold;
     /* met le lien en gras */

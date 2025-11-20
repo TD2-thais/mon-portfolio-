@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 /* --- Styles généraux --- */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
     /* Définit la police principale du texte */
     color: rgb(141, 140, 141);
     /* Couleur du texte (gris foncé) */
-    background: rgb(223, 212, 248);
+    background: rgb(206, 240, 230);
     /* Couleur d’arrière-plan blanche */
     margin: 0;
     /* Supprime la marge par défaut du navigateur autour du body */
@@ -39,7 +40,7 @@ header figure img {
     /* Hauteur automatique (conserve les proportions) */
     border-radius: 50%;
     /* Rend l’image parfaitement ronde */
-    border: 3px solid #8c3897;
+    border: 3px solid #1bc570;
     /* Bordure bleue autour de la photo */
 }
 
@@ -58,7 +59,7 @@ header h1 {
     /* Espace vertical autour du titre */
     font-size: 2rem;
     /* Taille du texte plus grande */
-    color: #8c3897;
+    color: #1eca74;
     /* Couleur du texte */
 }
 
@@ -82,7 +83,7 @@ header nav li {
 header nav a {
     text-decoration: none;
     /* Supprime le soulignement des liens */
-    color: #8c3897;
+    color: #1abd50;
     /* Couleur bleue pour les liens */
     font-weight: bold;
     /* Met le texte en gras */
@@ -97,7 +98,7 @@ header nav a:hover {
 main>h1 {
     text-align: center;
     /* Centre le titre principal du main */
-    color: #8c3897;
+    color: #11c069;
     /* Couleur bleu foncé */
     font-size: 2rem;
     /* Taille du texte plus grande */
@@ -115,7 +116,7 @@ main>section {
 }
 
 main>section h2 {
-    color: #8c3897;
+    color: #1ece84;
     /* Couleur du titre (bleu foncé) */
     font-size: 1.5em;
     /* Taille du texte 1,5 fois la taille normale */
@@ -123,7 +124,7 @@ main>section h2 {
 
 /* --- Footer --- */
 footer {
-    background: #7762a8;
+    background: #62a887;
     /* Fond bleu foncé */
     color: #fff;
     /* Texte blanc */
